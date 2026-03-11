@@ -54,16 +54,6 @@ function Navigation({ imgStyle }: { imgStyle: { [key: string]: string } }) {
                 MOUNTAIN TRAILS RETREAT
               </Link>
             </li>
-            <li>
-              <Link to="" onClick={toggleMenu}>
-                OCEANLOVERS RETREATS
-              </Link>
-            </li>
-            <li>
-              <Link to="" onClick={toggleMenu}>
-                JUNGLE ANCESTRAL RETREAT
-              </Link>
-            </li>
           </ul>
         </li>
         <li>
