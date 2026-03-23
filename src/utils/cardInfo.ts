@@ -7,7 +7,7 @@ export const cardInfo = [
   {
     title: "WELLNESS EXPERIENCE",
     desc: "Open yourself to a holistic session and explore new healing practices that nurture your mind, body, and spirit — in Bacalar or online.",
-    link: "/retreats/mountain",
+    link: "/wellness-bacalar-mexico",
     img: wellness,
   },
   {
