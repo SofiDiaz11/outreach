@@ -61,7 +61,7 @@ const Contact = () => {
             "Content-Type": "application/json",
           },
           body: JSON.stringify(payload),
-        }
+        },
       );
 
       if (response.ok) {
@@ -100,7 +100,7 @@ const Contact = () => {
                 WhatsApp
               </a>
               <a
-                href="https://www.instagram.com/outretreats"
+                href="https://www.instagram.com/outretreat"
                 target="_blank"
                 rel="noopener noreferrer"
                 className={`${styles.contactLink} ${styles.instagram}`}

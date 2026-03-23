@@ -6,6 +6,7 @@ import Reviews from "../../molecules/Reviews/Reviews";
 import Footer from "../../molecules/Footer/Footer";
 import styles from "./Home.module.scss";
 import ScrollToTopButton from "../../atoms/button/ScrollToTopButton";
+import Profile from "../../../assets/profile.png";
 
 const Home = () => {
   return (
@@ -22,23 +23,57 @@ const Home = () => {
         </div>
       </section>
       <section className={styles.aboutUsContainer}>
-        <div>
-          <h2>LEARN A LITTLE</h2>
-          <p className={styles.extra}>about us</p>
+        <div className={styles.aboutUsComp}>
+          <div>
+            <h2>LEARN A LITTLE</h2>
+            <p className={styles.extra}>about us</p>
+          </div>
+
+          <div>
+            <p>
+              OutRetreat is a wellness retreat agency dedicated to guiding
+              individuals back to themselves through transformational
+              experiences in Bacalar, Mexico.{" "}
+            </p>
+            <p>
+              Our mission is to help people return to a state of harmony,
+              restore balance, awaken conscious presence, and inspire a more
+              fulfilling way of life.
+            </p>
+          </div>
         </div>
 
-        <div>
-          <p>
-            Our mission is to reintegrate individuals into a harmonious state
-            with nature and the community through exclusive retreats. We promote
-            practices of adventures outdoor sports, yoga, meditation, and
-            holistic therapies in an idyllic setting. We create transformative
-            experiences that allow participants to reconnect with their inner
-            selves, revitalize, and rediscover the lost connection with the
-            serenity of nature.
-          </p>
+        <div className={styles.aboutUsFounder}>
+          <div className={styles.aboutUsInfo}>
+            <div className={styles.founderText}>
+              {" "}
+              <div className={styles.founderTitle}>
+                <h2>FOUNDER</h2>
+              </div>
+              <p className={styles.firstP}>
+                Founded by Hilda Villegas, her vision is to create safe and
+                supportive spaces for collective spiritual awakening, where
+                people can release, restore, heal, and reconnect with their
+                purpose. Since 2019.
+              </p>
+              <p>
+                Hilda has collaborated with holistic centers and sustainable
+                projects across five countries. She holds certifications in
+                agroforestry, breathwork, somatic healing, Janzu water therapy,
+                yoga, and diverse wellness modalities.
+              </p>
+              <p>
+                Today, she brings together everything she has learned and shares
+                it from a place of love, presence, and deep respect for nature.
+              </p>
+            </div>
+            <div className={styles.founderImg}>
+              <img src={Profile} alt="Hilda Villegas" />
+            </div>
+          </div>
         </div>
       </section>
+
       <section className={styles.retreatsContainer}>
         <h2>RETREATS</h2>
 

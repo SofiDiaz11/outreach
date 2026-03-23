@@ -1,14 +1,14 @@
 import jungle from "./../assets/jungle/jungleCover.webp";
-import mountain from "../assets/mountain/21.webp";
+import wellness from "../assets/wellnessEpx.jpeg";
 import watersport from "../assets/watersport/Kay.webp";
 import ocean from "../assets/ocean/oceanCover.webp";
 
 export const cardInfo = [
   {
-    title: "MOUNTAIN TRAILS RETREAT",
-    desc: "Hiking ,Trekking or climbing experience. Explore some of the most incredible trails in the word combining with a healing ceremonies",
-    link: "/wellness-bacalar-mexico",
-    img: mountain,
+    title: "WELLNESS EXPERIENCE",
+    desc: "Open yourself to a holistic session and explore new healing practices that nurture your mind, body, and spirit — in Bacalar or online.",
+    link: "/retreats/mountain",
+    img: wellness,
   },
   {
     title: "WATERSPORT RETREAT",
