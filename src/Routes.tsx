@@ -17,7 +17,7 @@ const router = createBrowserRouter([
         path: "/retreats/watersport/:section?",
         element: <WaterSportRetreats />,
       },
-      { path: "/retreats/mountain/:section?", element: <MountainRetreats /> },
+      { path: "/wellness-bacalar-mexico/:section?", element: <MountainRetreats /> },
     ],
   },
 ]);

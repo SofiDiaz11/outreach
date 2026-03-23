@@ -50,8 +50,8 @@ function Navigation({ imgStyle }: { imgStyle: { [key: string]: string } }) {
               </Link>
             </li>
             <li>
-              <Link to="/retreats/mountain" onClick={toggleMenu}>
-                MOUNTAIN TRAILS RETREAT
+              <Link to="/wellness-bacalar-mexico" onClick={toggleMenu}>
+                WELLNESS EXPERIENCE
               </Link>
             </li>
           </ul>

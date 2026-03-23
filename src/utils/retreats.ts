@@ -224,102 +224,72 @@ export const waterSportRetreats: retreatsTypes[] = [
   },
 ];
 
-import mountain7days1 from "./../assets/mountain/7-day-peru/1.webp";
-import mountain7days2 from "./../assets/mountain/7-day-peru/2.webp";
-import mountain7days3 from "./../assets/mountain/7-day-peru/3.webp";
-import mountain7days4 from "./../assets/mountain/7-day-peru/4.webp";
-import mountain7days5 from "./../assets/mountain/7-day-peru/5.webp";
-import mountain7days6 from "./../assets/mountain/7-day-peru/6.webp";
-import mountain7days7 from "./../assets/mountain/7-day-peru/7.webp";
-import mountain7days8 from "./../assets/mountain/7-day-peru/8.webp";
-
-import mountain9dayspatagonia1 from "./../assets/mountain/7-day-patagonia/1.webp";
-import mountain9dayspatagonia2 from "./../assets/mountain/7-day-patagonia/2.webp";
-import mountain9dayspatagonia3 from "./../assets/mountain/7-day-patagonia/3.webp";
-import mountain9dayspatagonia4 from "./../assets/mountain/7-day-patagonia/4.webp";
-import mountain9dayspatagonia5 from "./../assets/mountain/7-day-patagonia/5.webp";
-import mountain9dayspatagonia6 from "./../assets/mountain/7-day-patagonia/6.webp";
-import mountain9dayspatagonia7 from "./../assets/mountain/7-day-patagonia/7.webp";
-import mountain9dayspatagonia8 from "./../assets/mountain/7-day-patagonia/8.webp";
-import mountain9dayspatagonia9 from "./../assets/mountain/7-day-patagonia/9.webp";
-import mountain9dayspatagonia10 from "./../assets/mountain/7-day-patagonia/10.webp";
-import mountain9dayspatagonia11 from "./../assets/mountain/7-day-patagonia/11.webp";
+import wellnessJanzu from "./../assets/wellness/Janzu.webp";
+import wellnessIceBath from "./../assets/wellness/Ice-bath.webp";
+import wellnessBreathwork from "./../assets/wellness/Breathwork.webp";
 
 export const mountRetreats: retreatsTypes[] = [
   {
     photos: [
-      mountain7days2,
-      mountain7days3,
-      mountain7days4,
-      mountain7days5,
-      mountain7days6,
-      mountain7days8,
+      wellnessJanzu
     ],
-    section: "7-day-peru",
-    title: "7 Day trekking Retreat in Peruvian Andes",
+    section: "janzu-water-therapy-bacalar-lagoon",
+    title: "Janzu Water Therapy ",
     summary:
-      "Are you looking for clarity or inner peace? Join our guided trekking retreat in Huaraz, Peru, where the majestic Andes become an ancient vision quest ceremony",
+      "Janzu is a unique water therapy experience in Bacalar Lagoon, Mexico. This aquatic healing session combines gentle floating techniques, breath awareness, and fluid underwater movements to promote deep relaxation and emotional release. If you are looking for one of the top wellness experiences in Bacalar, a private water healing therapy session, or a peaceful lagoon activity, Janzu is a must-try experience.",
     includes: [
-      {
-        title: "WHAT IS INCLUDED",
-        list: [
-          "6 Nights of accommodation",
-          "Breakfast & Lunch",
-          "Daily yoga classes",
-          "Wilcacocha Lagon Trek / 4 hrs Moderate ~ Best view from Cordillera Blanca",
-          "Paron Lagon Trek / 6 hrs Moderate ~ Best trail from Huaraz",
-          "Hatun Machay Hiking / 3 hrs Easy ~  Stone Park",
-          "Secret lagoon Trek / 4 hs Moderate",
-          "1 Quechua Ritual",
-          "1 ancient vision quest ceremony",
-        ],
-      },
     ],
     prices: [
-      { title: "Private room (1 person)", price: 1700 },
-      { title: "Twin shared room (2 people)", price: 1490 },
+      { title: "Private cabin for 1 person", price: 5200 }
     ],
-    headerImg: mountain7days1,
+    headerImg: wellnessJanzu,
   },
   {
     photos: [
-      mountain9dayspatagonia2,
-      mountain9dayspatagonia3,
-      mountain9dayspatagonia4,
-      mountain9dayspatagonia5,
-      mountain9dayspatagonia6,
-      mountain9dayspatagonia7,
-      mountain9dayspatagonia8,
-      mountain9dayspatagonia9,
-      mountain9dayspatagonia10,
-      mountain9dayspatagonia11,
+      wellnessIceBath
     ],
-    section: "7-day-patagonia",
-    title: "9 Day Patagonia Hiking Retreat ",
+    section: "ice-bath-bacalar-lagoon",
+    title: "Guided Cold Plunge with Brearthwork ",
     summary:
-      "An unforgettable high-end trip to a hiking paradise with restorative wellness activities, we take you on the best hikes at 4 differents areas of Patagonia",
+      "Our Ice Bath experience is inspired by the Wim Hof Method, combining controlled breathing techniques, mindset training, and safe cold exposure. Through guided breathwork before entering the ice bath, you learn how to regulate your nervous system, increase oxygen levels, and prepare your body for the cold immersion experience.",
     includes: [
       {
-        title: "WHAT YOU WILL EXPERIENCE",
+        title: "Cold Water immersion helps to:",
 
         list: [
-          "8 Nights of private village accommodation ",
-          "Healthy Breakfast & Lunch",
-          "Daily yoga classes",
-          "3 Guide Meditation",
-          "Laguna Nimez Hiking / 3 hrs Easy ~ Best bird watching  from Calafate",
-          "Chalten Hiking full day / 6 hrs Moderate ~ Capri Lagoon &  Condores view point",
-          "1 Perito Moreno Glacier Hiking / 4 hrs Easy",
-          "Rock paintings Hiking  / 4 hrs Easy ",
-          "1 Cacao ceremony",
+          "Strengthen mental resilience",
+          "Boost immune response",
+          "Increase focus and clarity",
         ],
       },
     ],
     prices: [
-      { title: "Private room (1 person)", price: 3500 },
-      { title: "Twin shared room (2 people)", price: 2500 },
-      { title: "Twin shared room (3 people)", price: 1800 },
+      { title: "Private cabin for 1 person", price: 5200 }
     ],
-    headerImg: mountain9dayspatagonia1,
+    headerImg: wellnessIceBath,
+  },
+  {
+    photos: [
+      wellnessBreathwork
+    ],
+    section: "online-breathwork-session-1-1",
+    title: "Breathwork",
+    summary: 
+    "Through structured breathing techniques, you can access deeper states of awareness — all from the comfort of your home.",
+    includes: [
+      {
+        title: "I offer four different types of breathwork sessions, each designed with a specific intention:",
+        list: [
+          "Stress Relief Session – Regulate the nervous system, release tension, and restore calm.",
+          "Trauma Reset Session – Gently support emotional release and help the body process stored experiences.",
+          "Vision & Clarity Session – Gain mental clarity, unlock creativity, and reconnect with your direction and purpose.",
+          "Anxiety Relief Session – Calm an overactive mind, reduce anxious patterns, and create inner stability.",
+        ],
+      },
+    ],
+    prices: [
+      { title: "Private cabin for 1 person", price: 5200 }
+    ],
+    headerImg: wellnessBreathwork,
   },
 ];

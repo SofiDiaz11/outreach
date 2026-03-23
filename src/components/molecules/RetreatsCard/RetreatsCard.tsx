@@ -94,6 +94,8 @@ function RetreatsCard({
         <div className={styles.retreatsInfo}>
           <div>
             <div>
+              {includesRetreat1 && (
+            <>
               <h5 className={styles.includesTitle}>{includesRetreat1.title}</h5>
               <div className={styles.includes}>
                 {Array.isArray(includesRetreat1.list) &&
@@ -117,6 +119,8 @@ function RetreatsCard({
                     </p>
                   ))}
               </div>
+            </>
+          )}
 
               {/*   <div className={styles.priceCon}>
                 <h5>Prices: </h5>

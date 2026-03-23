@@ -7,7 +7,7 @@ export const cardInfo = [
   {
     title: "MOUNTAIN TRAILS RETREAT",
     desc: "Hiking ,Trekking or climbing experience. Explore some of the most incredible trails in the word combining with a healing ceremonies",
-    link: "/retreats/mountain",
+    link: "/wellness-bacalar-mexico",
     img: mountain,
   },
   {
