@@ -52,24 +52,78 @@ $gradient-end: rgba(77, 67, 59, 0.2);
   }
 
   .aboutUsContainer {
-    padding: 4rem 0;
+    padding: 8.5rem 0;
     display: flex;
+    gap: 7rem;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     text-align: center;
     background-color: $background-color1;
-    height: 32rem;
+    height: 50rem;
 
-    div + div {
+    .aboutUsComp > div + div {
       display: flex;
+      flex-direction: column;
+      align-items: center;
       justify-content: center;
       p {
         color: $font-color;
+        line-height: 1.6;
         margin: 0;
         font-style: normal;
-        width: 50%;
+        width: 46%;
+        font-size: 1rem;
+        margin-top: 1rem;
+      }
+
+      & > p:first-child {
+        font-weight: 600;
         font-size: 1.2rem;
+        margin-top: 0;
+      }
+    }
+
+    .aboutUsFounder {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+
+      & > div:first-child {
+        margin-right: 2rem;
+      }
+
+      .aboutUsInfo {
+        display: flex;
+
+        .founderText {
+          width: 50%;
+          display: flex;
+          flex-direction: column;
+          align-items: flex-end;
+          justify-content: center;
+
+          p {
+            text-align: right;
+            width: 60%;
+            font-size: 1rem;
+          }
+
+          .firstP {
+            font-weight: 600;
+            font-size: 1.2rem;
+            margin-top: 0;
+          }
+        }
+        .founderImg {
+          display: flex;
+          align-items: center;
+          padding: 2rem 0 0 6rem;
+          img {
+            width: 20rem;
+            border-radius: 20%;
+          }
+        }
       }
     }
   }
@@ -174,7 +228,7 @@ $gradient-end: rgba(77, 67, 59, 0.2);
     .aboutUsContainer {
       padding: 1.2rem 0;
 
-      height: 32rem;
+      //height: 32rem;
       h2 {
         margin: 0;
         font-size: 1.7rem;
@@ -191,6 +245,76 @@ $gradient-end: rgba(77, 67, 59, 0.2);
           margin: 0;
           width: 80%;
           font-size: 0.9rem;
+        }
+      }
+
+      .aboutUsComp > div + div {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        p {
+          color: $font-color;
+          line-height: 1.6;
+          margin: 0;
+          font-style: normal;
+          width: 80%;
+          font-size: 0.6rem;
+          margin-top: 1rem;
+        }
+
+        & > p:first-child {
+          font-weight: 600;
+          font-size: 0.8rem;
+          margin-top: 0;
+        }
+      }
+
+      .aboutUsFounder {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        padding: 0 1.5rem;
+
+        & > div:first-child {
+          margin-right: 0rem;
+        }
+
+        .aboutUsInfo {
+          display: flex;
+          gap: 2rem;
+
+          .founderText {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+
+            .founderTitle {
+              text-align: right;
+              width: 100%;
+            }
+
+            p {
+              text-align: right;
+              width: 100%;
+              font-size: 0.6rem;
+              margin-top: 0.7rem;
+            }
+
+            .firstP {
+              font-weight: 600;
+              font-size: 0.8rem;
+              margin-top: 0;
+            }
+          }
+          .founderImg {
+            display: flex;
+            padding: 0;
+            img {
+              width: 10rem;
+              border-radius: 20%;
+            }
+          }
         }
       }
     }
