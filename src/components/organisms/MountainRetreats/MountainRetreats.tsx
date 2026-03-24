@@ -37,6 +37,7 @@ function MountainRetreats() {
             index={index}
             discounts={retreat.discounts}
             headerImg={retreat.headerImg}
+            button={retreat.button}
           />
         </section>
       ))}

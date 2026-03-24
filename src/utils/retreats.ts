@@ -58,6 +58,7 @@ interface retreatsTypes {
   prices: { [key: string]: number | string }[];
   discounts?: string;
   headerImg: string;
+  button?: string;
 }
 
 export const waterSportRetreats: retreatsTypes[] = [
@@ -242,6 +243,7 @@ export const mountRetreats: retreatsTypes[] = [
     prices: [
       { title: "Private cabin for 1 person", price: 5200 }
     ],
+    button: "Book Water Session",
     headerImg: wellnessJanzu,
   },
   {
@@ -266,6 +268,7 @@ export const mountRetreats: retreatsTypes[] = [
     prices: [
       { title: "Private cabin for 1 person", price: 5200 }
     ],
+    button: "Join us",
     headerImg: wellnessIceBath,
   },
   {
@@ -290,6 +293,7 @@ export const mountRetreats: retreatsTypes[] = [
     prices: [
       { title: "Private cabin for 1 person", price: 5200 }
     ],
+    button: "1:1 Online Session",
     headerImg: wellnessBreathwork,
   },
 ];

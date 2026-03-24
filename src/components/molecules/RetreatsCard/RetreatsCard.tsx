@@ -20,6 +20,7 @@ interface RetreatsCardProp {
   index: number;
   discounts?: string;
   headerImg: string;
+  button?: string;
 }
 
 function RetreatsCard({
@@ -31,6 +32,7 @@ function RetreatsCard({
   index,
   discounts,
   headerImg,
+  button,
 }: RetreatsCardProp) {
   const includesRetreat1 = includes[0];
   const includesRetreat2 = includes[1];
@@ -148,7 +150,7 @@ function RetreatsCard({
               <div className={styles.bookNowCon}>
                 <Link to={`/contact`}>
                   <button className={styles.bookNowBtn} type="button">
-                    Book Now
+                    {button ?? "Book Now"}
                   </button>
                 </Link>
               </div>
