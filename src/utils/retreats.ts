@@ -278,10 +278,10 @@ export const mountRetreats: retreatsTypes[] = [
     section: "online-breathwork-session-1-1",
     title: "Breathwork",
     summary: 
-    "Through structured breathing techniques, you can access deeper states of awareness — all from the comfort of your home.",
+    "Through structured breathing techniques, you can access deeper states of awareness — all from the comfort of your home. I offer four different types of breathwork sessions,",
     includes: [
       {
-        title: "I offer four different types of breathwork sessions, each designed with a specific intention:",
+        title: " Each designed with a specific intention:",
         list: [
           "Stress Relief Session – Regulate the nervous system, release tension, and restore calm.",
           "Trauma Reset Session – Gently support emotional release and help the body process stored experiences.",

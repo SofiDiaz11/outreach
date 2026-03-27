@@ -1,0 +1,241 @@
+@import "../../../stylesConfig/stylesConfig.scss";
+
+.wellnessWrapper {
+  padding: 8rem 0rem;
+  position: relative;
+}
+
+.flipped {
+  background-color: $tertairy-color;
+
+  .infoBox{
+    background-color: #fff;
+  }
+}
+
+// ── TOP ──────────────────────────────────────────
+.header {
+  display: flex;
+  gap: 5rem;
+  padding: 0 10rem;
+
+  .headerImg {
+    width: 46%;
+    img {
+      width: 100%;
+      height: auto;
+    }
+  }
+
+  .titleCon {
+    width: 54%;
+
+    h2 {
+      font-size: 4.5rem;
+    }
+
+    p {
+      font-style: italic;
+      font-size: 1.2rem;
+      color: $secondary-color;
+      width: 85%;
+    }
+  }
+}
+
+.headerFlipped {
+  flex-direction: row-reverse;
+}
+
+// ── BOTTOM ──────────────────────────────────────────
+.bottom {
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: stretch;
+  padding: 5rem 0;
+}
+
+
+.infoBox {
+  width: 45%;
+  background-color: $tertairy-color;
+  border-bottom-right-radius: 0;
+  border-top-right-radius: 0;
+  border-bottom-left-radius: 25%;
+  border-top-left-radius: 25%;
+  padding: 4rem 4rem 4rem 5rem;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  text-align: start;
+
+  .includesTitle {
+    font-size: 1.8rem;
+    margin-bottom: 1.5rem;
+  }
+
+  .includesList {
+    p {
+      display: flex;
+      align-items: center;
+      justify-content: flex-end;
+      letter-spacing: 0.15rem;
+      font-size: 0.9rem;
+      margin: 0.4rem 0;
+
+      img {
+        width: 1.8rem;
+        height: 1.8rem;
+        margin-left: 0.8rem;
+      }
+    }
+  }
+
+  .btnCon {
+    margin-top: 2rem;
+  }
+}
+
+.onlyBtnCon {
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+  padding: 0 10rem;
+  margin-top: 2rem;
+}
+
+// ── BUTTON ────────────────────────────────────────────────────
+.btn {
+  letter-spacing: 0.3rem;
+  font-size: 0.8rem;
+  padding: 0.8rem 1.5rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 5px;
+  border: none;
+  background-color: $primary-color;
+  color: $font-color;
+
+  &:hover {
+    background-color: $secondary-color;
+    color: #fff;
+  }
+}
+
+// ── TABLET ───────────────────────────────────────────────────
+@media (min-width: 769px) and (max-width: 1024px) {
+  .wellnessWrapper {
+    padding: 4rem 0;
+  }
+
+  .header {
+    gap: 2rem;
+    padding: 0 2rem;
+
+    .headerImg {
+      width: 40%;
+    }
+
+    .titleCon {
+      width: 60%;
+
+      h2 {
+        font-size: 2.5rem;
+      }
+
+      p {
+        font-size: 1rem;
+      }
+    }
+  }
+
+  .infoBox {
+    width: 55%;
+    padding: 3rem 3rem 3rem 2rem;
+
+    .includesTitle {
+      font-size: 1.4rem;
+    }
+
+    .includesList p {
+      font-size: 0.8rem;
+    }
+  }
+
+  .spacer {
+    width: 45%;
+  }
+
+  .onlyBtnCon {
+    padding: 0 2rem;
+  }
+}
+
+// ── MOBILE ───────────────────────────────────────────────────
+@media (max-width: 768px) {
+  .wellnessWrapper {
+    padding: 4rem 0;
+  }
+
+  .header {
+    flex-direction: column;
+    gap: 2rem;
+    padding: 0 2rem;
+
+    .headerImg {
+      width: 100%;
+      img {
+        width: 100%;
+      }
+    }
+
+    .titleCon {
+      width: 100%;
+      h2 {
+        font-size: 2.2rem;
+      }
+      p {
+        font-size: 1rem;
+        width: 100%;
+      }
+    }
+  }
+
+  .headerFlipped {
+    flex-direction: column;
+  }
+
+  .bottom {
+    flex-direction: column;
+    padding: 2rem 0;
+  }
+
+  .spacer {
+    display: none;
+  }
+
+  .infoBox {
+    width: 100%;
+    border-radius: 0;
+    padding: 2rem;
+    align-items: center;
+    text-align: center;
+
+    .includesList p {
+      justify-content: center;
+      font-size: 0.8rem;
+    }
+  }
+
+  .onlyBtnCon {
+    padding: 0 2rem;
+    justify-content: center;
+  }
+}
+
+@media (max-width: 480px) {
+  .wellnessWrapper {
+    padding: 2rem 0;
+  }
+}

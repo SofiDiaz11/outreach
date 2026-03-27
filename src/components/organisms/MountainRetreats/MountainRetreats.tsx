@@ -2,7 +2,7 @@ import { useEffect } from "react";
 import { useLocation } from "react-router-dom"; //
 import styles from "./MountainRetreats.module.scss";
 import { mountRetreats } from "../../../utils/retreats";
-import RetreatsCard from "../../molecules/RetreatsCard/RetreatsCard";
+import WellnessCard from "../../molecules/WellnessCard/WellnessCard";
 import Navigation from "../../molecules/Navigation/Navigation";
 import Footer from "../../molecules/Footer/Footer";
 import ScrollToTopButton from "../../atoms/button/ScrollToTopButton";
@@ -28,16 +28,14 @@ function MountainRetreats() {
         <section id={retreat.section} key={index}>
           {" "}
           {/* Add an ID for each section */}
-          <RetreatsCard
-            imgs={retreat.photos}
+          <WellnessCard
+            headerImg={retreat.photos}
             title={retreat.title}
             summary={retreat.summary}
             includes={retreat.includes}
-            prices={retreat.prices}
+            button={retreat.button}
             index={index}
             discounts={retreat.discounts}
-            headerImg={retreat.headerImg}
-            button={retreat.button}
           />
         </section>
       ))}
