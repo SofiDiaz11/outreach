@@ -2,8 +2,8 @@
 import { useState, useEffect } from "react";
 import styles from "./Contact.module.scss";
 import Navigation from "../../molecules/Navigation/Navigation";
-import background1 from "./../../../assets/watersport/21-renewals/3.webp";
-import background2 from "./../../../assets/mountain/7-day-peru/7.webp";
+import background1 from "./../../../assets/watersport/5-day-retreat/5.webp";
+import background2 from "./../../../assets/watersport/janzu-training/5.webp";
 import Footer from "../../molecules/Footer/Footer";
 
 const Contact = () => {

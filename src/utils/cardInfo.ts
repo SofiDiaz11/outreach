@@ -11,9 +11,9 @@ export const cardInfo = [
     img: wellness,
   },
   {
-    title: "WATERSPORT RETREAT",
+    title: "WATER RETREAT",
     desc: "Reset, Reconnect & Rediscover. Serene exploring the 7-color lagoon & practice outdoor yoga for those who want to reintegrate life in an adequate balance",
-    link: "/retreats/watersport",
+    link: "/water-retreat-bacalar-mexico",
     img: watersport,
   },
   {

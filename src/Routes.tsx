@@ -14,10 +14,11 @@ const router = createBrowserRouter([
       { path: "/contact", element: <Contact /> },
       // Dynamic route to handle sections of WaterSportRetreats
       {
-        path: "/retreats/watersport/:section?",
+        path: "/water-retreat-bacalar-mexico/:section?",
         element: <WaterSportRetreats />,
       },
-      { path: "/wellness-bacalar-mexico/:section?", element: <MountainRetreats /> },
+      { path: "/wellness-bacalar-mexico/:section?", 
+        element: <MountainRetreats /> },
     ],
   },
 ]);

@@ -45,8 +45,8 @@ function Navigation({ imgStyle }: { imgStyle: { [key: string]: string } }) {
           RETREATS
           <ul className={styles.dropdown}>
             <li>
-              <Link to="/retreats/watersport" onClick={toggleMenu}>
-                WATERSPORTS RETREATS
+              <Link to="/water-retreat-bacalar-mexico" onClick={toggleMenu}>
+                WATER RETREAT
               </Link>
             </li>
             <li>
