@@ -98,7 +98,7 @@ function RetreatsCard({
             <div>
               {includesRetreat1 && (
             <>
-              <h5 className={styles.includesTitle}>{includesRetreat1.title}</h5>
+              <h3 className={styles.includesTitle}>{includesRetreat1.title}</h3>
               <div className={styles.includes}>
                 {Array.isArray(includesRetreat1.list) &&
                   includesRetreat1.list.map((item, i) => (

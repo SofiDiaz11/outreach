@@ -75,7 +75,7 @@ export const waterSportRetreats: retreatsTypes[] = [
       watersport4days5,
     ],
     section: "water-wellness-retreat-mexico-4-days",
-    title: "4 DAY WATER RETREAT IN MEXICO ",
+    title: "4 DAY WATER WELLNESS RETREAT IN MEXICO ",
     summary:
       "Do you feel blocked or deeply in need of a reset? This 4-day water retreat in Mexico is an immersive wellness experience designed to help you release stress, restore balance, and reconnect with yourself through water-based therapies and conscious practices in nature.",
     includes: [
@@ -124,7 +124,7 @@ export const waterSportRetreats: retreatsTypes[] = [
           "Daily breakfast, lunch, and healthy snacks",
           "Daily yoga and meditation classes",
           "3 aquatic therapy sessions (Ice Bath, Janzu & Aquahara)",
-          "3 serene excursions (Snorkeling, Kayaking & Stand-Up Paddleboarding)",
+          "2 serene excursions (Snorkeling & Kayak)",
           "3 mental health and personal growth workshops",
           "1 cacao ceremony & ecstatic dance with live DJ set",
           "Eco Tour — exploring geology, wildlife, and native flora",
@@ -150,13 +150,13 @@ export const waterSportRetreats: retreatsTypes[] = [
     section: "janzu-training",
     title: "Janzu Water Healing Training",
     summary:
-      "14 Day Certified Janzu Facilitator Training, Mexico. Are you ready to lead, heal, and expand your path in the world of holistic wellness?",
+      "10 days or 14 days Certified Janzu Facilitator Training, Mexico. Are you ready to lead, heal, and expand your path in the world of holistic wellness?",
     includes: [
       {
         title: "",
         list: [
           "This immersive Janzu Level 1 & 2 training is a powerful journey of self-discovery, healing, and transformation—combining both theory and hands-on practice.",
-          "Learn directly from an experienced teacher with over 20 years of guiding Janzu sessions worldwide, while also receiving support from Hilda, holistic business mentor and founder of Outretreat, to help you grow professionally in the wellness industry.",
+          "Learn directly from Daniel, an experienced teacher with over 10 years of guiding Janzu sessions worldwide, while also receiving support from Hilda, holistic business mentor and founder of Outretreat, to help you grow professionally in the wellness industry.",
           "Set in the breathtaking natural beauty of Bacalar Lagoon, often called the “Maldives of Mexico,” this experience integrates nature as a key part of your learning and transformation.)",
         ],
       },

@@ -24,6 +24,7 @@ function WaterSportRetreats() {
   return (
     <main className={styles.main}>
       <Navigation imgStyle={{ display: "block" }} />
+      <h1 className={styles.pageTitle}>Water Retreats in Bacalar, Mexico</h1>
       {waterSportRetreats.map((retreat, index) => (
         <section id={retreat.section} key={index}>
           {" "}
