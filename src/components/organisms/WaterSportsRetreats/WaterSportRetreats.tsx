@@ -11,15 +11,37 @@ function WaterSportRetreats() {
   const location = useLocation(); // Get the current location (to access the hash)
 
   useEffect(() => {
-    if (location.hash) {
-      // Scroll to the element with the id matching the hash
-      const sectionId = location.hash.substring(1); // Remove the # from the hash
-      const element = document.getElementById(sectionId);
-      if (element) {
-        element.scrollIntoView({ behavior: "smooth" }); // Scroll to the element
-      }
+  // Scroll to section if hash exists
+  if (location.hash) {
+    const sectionId = location.hash.substring(1);
+    const element = document.getElementById(sectionId);
+    if (element) {
+      element.scrollIntoView({ behavior: "smooth" });
     }
-  }, [location]); // Run this effect whenever the location changes
+  }
+
+  // IntersectionObserver — actualiza URL al hacer scroll
+  const observer = new IntersectionObserver(
+    (entries) => {
+      entries.forEach((entry) => {
+        if (entry.isIntersecting) {
+          window.history.replaceState(
+            null,
+            "",
+            `/water-retreat-bacalar-mexico#${entry.target.id}`
+          );
+        }
+      });
+    },
+    { threshold: 0.2 }
+  );
+
+  document.querySelectorAll("section[id]").forEach((section) => {
+    observer.observe(section);
+  });
+
+  return () => observer.disconnect();
+}, [location]);// Run this effect whenever the location changes
 
   return (
     <main className={styles.main}>

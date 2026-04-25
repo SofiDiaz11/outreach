@@ -50,15 +50,15 @@ export const waterSportRetreats: retreatsTypes[] = [
     section: "water-retreat-bacalar-day-experience",
     title: "1 DAY WATER RETREAT",
     summary:
-      "Are you in Bacalar or nearby? I invite you to experience a holistic healing day designed to renew your vital energy and bring intention to your vacation"
+      "Are you in Bacalar or nearby? I invite you to experience a holistic healing day designed to renew your vital energ. "
       ,
     includes: [
       {
         title: "Why Should You Join?",
         list: [
-          "Spend a day of healing by the lagoon journey designed to help you relax.",
-          "Through outdoor meditation, conscious breathing, relaxing yoga, and a water healing session, you will renew your energy and bring a deeper intention to your journey",
-          "We will conclude with a community water healing experience, where you can float, let go, and feel supported by the water while deepening trust in yourself and  in your process.",
+          "Includes guided outdoor meditation, mindful breathing, and relaxing yoga.",
+          "Renew your energy and bring intention to your vacation.",
+          "We conclude with a group activity at the lagoon to boost your self-confidence.",
         ],
       },
     ],
@@ -87,7 +87,7 @@ export const waterSportRetreats: retreatsTypes[] = [
           "Daily restorative yoga & meditation to calm the mind",
           "Ice bath & breathwork sessions to build resilience",
           "Janzu Water Therapy — a rebirth experience",
-          "Aguahara Water Therapy — a gentle yet powerful healing modality",
+          "Water contact dance —free expression",
           "Transformational breathwork — a guided journey for reset and vision",
           "Cenotes tour & immersive nature experiences",
         ],
@@ -123,8 +123,8 @@ export const waterSportRetreats: retreatsTypes[] = [
           "5 nights of luxury accommodation",
           "Daily breakfast, lunch, and healthy snacks",
           "Daily yoga and meditation classes",
-          "3 aquatic therapy sessions (Ice Bath, Janzu & Aquahara)",
-          "2 serene excursions (Snorkeling & Kayak)",
+          "3 aquatic therapy sessions (Ice Bath, Janzu & Water Contact)",
+          "2 serene excursions (SUP & Kayak)",
           "3 mental health and personal growth workshops",
           "1 cacao ceremony & ecstatic dance with live DJ set",
           "Eco Tour — exploring geology, wildlife, and native flora",
@@ -156,7 +156,7 @@ export const waterSportRetreats: retreatsTypes[] = [
         title: "",
         list: [
           "This immersive Janzu Level 1 & 2 training is a powerful journey of self-discovery, healing, and transformation—combining both theory and hands-on practice.",
-          "Learn directly from Daniel, an experienced teacher with over 10 years of guiding Janzu sessions worldwide, while also receiving support from Hilda, holistic business mentor and founder of Outretreat, to help you grow professionally in the wellness industry.",
+          "Learn directly from Daniel, an experienced teacher with over 8 years of guiding Janzu sessions worldwide, while also receiving support from Hilda, holistic business mentor and founder of Outretreat, to help you grow professionally in the wellness industry.",
           "Set in the breathtaking natural beauty of Bacalar Lagoon, often called the “Maldives of Mexico,” this experience integrates nature as a key part of your learning and transformation.)",
         ],
       },
