@@ -6,6 +6,8 @@ import RetreatsCard from "../../molecules/RetreatsCard/RetreatsCard";
 import Navigation from "../../molecules/Navigation/Navigation";
 import Footer from "../../molecules/Footer/Footer";
 import ScrollToTopButton from "../../atoms/button/ScrollToTopButton";
+import { Helmet } from "react-helmet-async";
+
 
 function WaterSportRetreats() {
   const location = useLocation(); // Get the current location (to access the hash)
@@ -46,6 +48,19 @@ function WaterSportRetreats() {
   return (
     <main className={styles.main}>
       <Navigation imgStyle={{ display: "block" }} />
+      <Helmet>
+        <title>Water Retreats in Bacalar, Mexico | OutRetreat</title>
+        <meta
+          name="description"
+          content="Experience transformational water retreats in Bacalar, Mexico. 1-day sessions, 4-day wellness retreats, water sport retreats, and Janzu water healing training."
+        />
+        <meta property="og:title" content="Water Retreats in Bacalar, Mexico | OutRetreat" />
+        <meta
+          property="og:description"
+          content="Experience transformational water retreats in Bacalar, Mexico. 1-day sessions, 4-day wellness retreats, water sport retreats, and Janzu water healing training."
+        />
+        <meta property="og:url" content="https://outretreat.com/water-retreat-bacalar-mexico" />
+      </Helmet>
       <h1 className={styles.pageTitle}>Water Retreats in Bacalar, Mexico</h1>
       {waterSportRetreats.map((retreat, index) => (
         <section id={retreat.section} key={index}>

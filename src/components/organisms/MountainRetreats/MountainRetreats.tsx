@@ -6,6 +6,7 @@ import WellnessCard from "../../molecules/WellnessCard/WellnessCard";
 import Navigation from "../../molecules/Navigation/Navigation";
 import Footer from "../../molecules/Footer/Footer";
 import ScrollToTopButton from "../../atoms/button/ScrollToTopButton";
+import { Helmet } from "react-helmet-async";
 
 function MountainRetreats() {
   const location = useLocation(); // Get the current location (to access the hash)
@@ -46,6 +47,19 @@ function MountainRetreats() {
   return (
     <main className={styles.main}>
       <Navigation imgStyle={{ display: "block" }} />
+      <Helmet>
+        <title>Wellness Experience in Bacalar, Mexico | OutRetreat</title>
+        <meta
+          name="description"
+          content="Discover holistic wellness experiences in Bacalar, Mexico. Janzu water therapy, ice bath with breathwork, and online 1:1 breathwork sessions."
+        />
+        <meta property="og:title" content="Wellness Experience in Bacalar, Mexico | OutRetreat" />
+        <meta
+          property="og:description"
+          content="Discover holistic wellness experiences in Bacalar, Mexico. Janzu water therapy, ice bath with breathwork, and online 1:1 breathwork sessions."
+        />
+        <meta property="og:url" content="https://outretreat.com/wellness-bacalar-mexico" />
+      </Helmet>
       {mountRetreats.map((retreat, index) => (
         <section id={retreat.section} key={index}>
           {" "}
