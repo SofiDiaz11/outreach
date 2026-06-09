@@ -60,6 +60,7 @@ function WaterSportRetreats() {
           content="Experience transformational water retreats in Bacalar, Mexico. 1-day sessions, 4-day wellness retreats, water sport retreats, and Janzu water healing training."
         />
         <meta property="og:url" content="https://outretreat.com/water-retreat-bacalar-mexico" />
+        <link rel="canonical" href="https://outretreat.com/water-retreat-bacalar-mexico" />
       </Helmet>
       <h1 className={styles.pageTitle}>Water Retreats in Bacalar, Mexico</h1>
       {waterSportRetreats.map((retreat, index) => (
